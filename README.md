@@ -88,7 +88,8 @@ El análisis de interpretabilidad reveló que el **Estado Civil** (específicame
 ## 📂 Estructura del Repositorio
 
 ```text
-├── Formativa_4_Sumativa1_Def.ipynb  # Notebook principal con todo el código y análisis
+├── ACIF104_S6_Grupo13.ipynb         # Notebook principal con todo el código y análisis
+├── ACIF104_S6_Grupo13.pdf           # Informe de la actividad
 ├── adult.csv                        # Dataset (si decides subirlo, o instruye descargarlo)
 ├── requirements.txt                 # Lista de librerías necesarias
 └── README.md                        # Este archivo
