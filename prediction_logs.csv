@@ -1,0 +1,4 @@
+age,workclass,education.num,marital.status,occupation,relationship,race,sex,capital.gain,capital.loss,hours.per.week,native.country,Prediction,Probability
+30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.7417
+30,Local-gov,10,Never-married,Exec-managerial,Unmarried,White,Male,3000,0,40,United-States,<=50K,0.0445
+30,Local-gov,10,Never-married,Exec-managerial,Unmarried,White,Male,35000,0,40,United-States,>50K,1.0
