@@ -4,3 +4,9 @@ age,workclass,education.num,marital.status,occupation,relationship,race,sex,capi
 30,Local-gov,10,Never-married,Exec-managerial,Unmarried,White,Male,35000,0,40,United-States,>50K,1.0
 30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.6378
 44,Private,10,Never-married,Exec-managerial,Unmarried,White,Male,20000,0,40,United-States,>50K,0.9959
+44,Private,10,Married-civ-spouse,Other-service,Husband,White,Male,3000,0,44,United-States,>50K,0.6527
+44,Private,10,Married-civ-spouse,Other-service,Husband,White,Male,3000,0,44,Peru,<=50K,0.4865
+50,State-gov,8,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,United-States,>50K,0.7735
+30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.6378
+30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.6378
+30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.6378
