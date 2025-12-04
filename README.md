@@ -8,8 +8,8 @@ Sigue estos pasos para configurar el entorno de ejecución:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/MaidoniaN/ACIF104-Sumativa1-Grupo1.git](https://github.com/MaidoniaN/ACIF104-Sumativa1-Grupo1.git)
-    cd ACIF104-Sumativa1-Grupo1
+    git clone [https://github.com/MaidoniaN/ACIF104-Sumativa2-Grupo13.git](https://github.com/MaidoniaN/ACIF104-Sumativa2-Grupo13.git)
+    cd ACIF104-Sumativa2-Grupo13
     ```
 
 2.  **Configurar entorno virtual (Recomendado):**
