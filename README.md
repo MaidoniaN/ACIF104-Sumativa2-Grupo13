@@ -148,6 +148,8 @@ Espera a ver el mensaje: "¡LISTO! Archivos generados correctamente."
 
 ### Paso 3: Iniciar la App
 
+Ejecutar el siguiente comando en el directorio API
+
 ```
 streamlit run app.py
 ```
