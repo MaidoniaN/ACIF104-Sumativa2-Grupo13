@@ -108,6 +108,7 @@ streamlit run app.py
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:8501.
 
 ## ☁️ Ejecución en Google Colab
+
 Si prefieres revisar el análisis sin instalar nada localmente:
 
 1. Abre el archivo Notebook/ACIF104_S10_Grupo13.ipynb en el repositorio de GitHub.
