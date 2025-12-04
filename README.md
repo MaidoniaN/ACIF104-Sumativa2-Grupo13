@@ -143,7 +143,7 @@ cd API
 ```
 python3 entrenar_local.py
 ```
-![Interfaz de la App Streamlit](Images/Prediction1.png)
+![Interfaz de la App Streamlit](Images/AppRun.png)
 
 
 Espera a ver el mensaje: "¡LISTO! Archivos generados correctamente."
