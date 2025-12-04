@@ -9,6 +9,9 @@ Este proyecto corresponde a la **Evaluación Sumativa 2** del curso ACIF104. El 
 
 ## 📋 Tabla de Contenidos
 - [Descripción del Proyecto](#-descripción-del-proyecto)
+- [Metodología](#-metodología)
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [Resultados Clave](#-resultados-clave)
 - [Estructura del Repositorio](#-estructura-del-repositorio)
 - [Instalación y Configuración](#-instalación-y-configuración)
 - [Ejecución de la Aplicación (API)](#-ejecución-de-la-aplicación-api)
