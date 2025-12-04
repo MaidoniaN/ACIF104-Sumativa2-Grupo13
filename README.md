@@ -22,6 +22,46 @@ Utilizando el dataset "Adult Census", este proyecto implementa una metodología 
 3.  **Despliegue:** Una aplicación web interactiva que permite realizar inferencias en tiempo real.
 4.  **Ética y Monitoreo:** Estrategias para mitigar sesgos y vigilar el *data drift* en producción.
 
+
+## 🚀 Metodología
+El proyecto sigue un flujo de trabajo de Ciencia de Datos riguroso:
+
+1.  **EDA y Limpieza:** Manejo de valores nulos (`?`), análisis de outliers y eliminación de redundancias (`education` vs `education-num`).
+2.  **Preprocesamiento:** Pipeline con `StandardScaler` para numéricas y `OneHotEncoder` para categóricas.
+3.  **Machine Learning Clásico (Baseline):** Comparativa entre Regresión Logística, Random Forest y SVM.
+4.  **Estrategias de Balanceo:** Pruebas con *Baseline*, *SMOTE* y *Class Weights*.
+5.  **Deep Learning:** Implementación y comparación de tres arquitecturas:
+    * MLP Básico.
+    * MLP con Regularización (Dropout).
+    * Arquitectura Wide & Deep.
+6.  **Refinamiento:** Ajuste de hiperparámetros automatizado usando **KerasTuner**.
+7.  **Explicabilidad:** Análisis interpretativo del modelo final utilizando **SHAP** (SHapley Additive exPlanations).
+
+## 🛠 Tecnologías Utilizadas
+* **Python 3**
+* **Pandas & NumPy:** Manipulación de datos.
+* **Matplotlib & Seaborn:** Visualización de datos.
+* **Scikit-Learn:** Preprocesamiento y modelos clásicos.
+* **TensorFlow / Keras:** Construcción de redes neuronales.
+* **Keras Tuner:** Optimización de hiperparámetros.
+* **Imbalanced-learn:** Técnica SMOTE.
+* **SHAP:** Interpretabilidad del modelo.
+
+## 🏆 Resultados Clave
+
+Tras experimentar con múltiples arquitecturas, el modelo **MLP con Dropout (30%)** resultó ser el ganador, superando incluso a modelos optimizados automáticamente y arquitecturas híbridas complejas. Esto demostró la importancia de la regularización simple frente al desbalance de datos.
+
+| Modelo | F1-Score (>50K) | AUC-ROC | Conclusión |
+| :--- | :---: | :---: | :--- |
+| **MLP + Dropout (Ganador)** | **0.6836** | **0.9071** | Mejor equilibrio y generalización. |
+| Wide & Deep | 0.6812 | 0.9058 | Muy competitivo, arquitectura robusta. |
+| MLP Optimizado (Tuner) | 0.6804 | 0.9070 | Excelente AUC, pero menor F1. |
+| MLP Básico | 0.6774 | 0.9024 | Buen baseline, tiende al sobreajuste. |
+
+**Insights de SHAP:**
+El análisis de interpretabilidad reveló que el **Estado Civil** (específicamente estar casado), la **Edad**, los **Años de Educación** y las **Ganancias de Capital** son los predictores más fuertes para tener ingresos altos.
+
+
 ## 📂 Estructura del Repositorio
 
 El proyecto está organizado de manera modular para separar el análisis, la documentación y el despliegue:
