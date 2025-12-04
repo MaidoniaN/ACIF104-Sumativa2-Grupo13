@@ -86,6 +86,10 @@ El proyecto está organizado de manera modular para separar el análisis, la doc
 ├── Informe/                      # Documentación Formal
 │   └── ACIF104_S10_Grupo13.docx  # Informe final detallado
 │
+├── Images/                      # Documentación Formal
+│   └── Prediction1.txt          # Informe final detallado
+│   └── Prediction2.txt          # Informe final detallado
+│
 ├── Notebook/                     # Análisis y Experimentación
 │   └── ACIF104_S10_Grupo13.ipynb # Jupyter Notebook con todo el código del proyecto
 │
@@ -139,6 +143,8 @@ cd API
 ```
 python3 entrenar_local.py
 ```
+![Interfaz de la App Streamlit](Images/Prediction1.png)
+
 
 Espera a ver el mensaje: "¡LISTO! Archivos generados correctamente."
 
