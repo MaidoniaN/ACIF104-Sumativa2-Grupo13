@@ -143,8 +143,6 @@ cd API
 ```
 python3 entrenar_local.py
 ```
-![Interfaz de la App Streamlit](Images/AppRun.png)
-
 
 Espera a ver el mensaje: "¡LISTO! Archivos generados correctamente."
 
@@ -153,8 +151,14 @@ Espera a ver el mensaje: "¡LISTO! Archivos generados correctamente."
 ```
 streamlit run app.py
 ```
+![Interfaz de la App Streamlit](Images/AppRUN.png)
 
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:8501.
+Una vez que inicia con la aplicacion podemos hacer predicciones, de acuerdo a un sujeto de interes y mediante el algoritmo, si podra o no ganar sobre 50Mil
+![Interfaz de la App Streamlit](Images/Prediction1.png)
+
+Ahora bien, son casi las mismas caracteristicas pero el resultado es menor porque se realizó un cambio en la nacionalidad.
+![Interfaz de la App Streamlit](Images/Prediction2.png)
 
 ## ☁ Ejecución en Google Colab
 
