@@ -12,7 +12,7 @@ Este proyecto corresponde a la **Evaluación Sumativa 2** del curso ACIF104. El 
 - [Estructura del Repositorio](#-estructura-del-repositorio)
 - [Instalación y Configuración](#-instalación-y-configuración)
 - [Ejecución de la Aplicación (API)](#-ejecución-de-la-aplicación-api)
-- [Ejecución en Google Colab](#ejecución-en-google-colab)
+- [Ejecución en Google Colab](#-ejecución-en-google-colab)
 - [Autores](#-autores)
 
 ## 🧐 Descripción del Proyecto
@@ -107,7 +107,7 @@ streamlit run app.py
 
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:8501.
 
-## ☁️ Ejecución en Google Colab
+## ☁ Ejecución en Google Colab
 
 Si prefieres revisar el análisis sin instalar nada localmente:
 
