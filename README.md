@@ -56,17 +56,15 @@ El proyecto está organizado de manera modular para separar el análisis, la doc
 Sigue estos pasos para ejecutar el proyecto en tu entorno local (Linux/Mac/Windows).
 
 ### 1. Clonar el Repositorio
-```bash
+```
 git clone [https://github.com/MaidoniaN/ACIF104-Sumativa2-Grupo13.git](https://github.com/MaidoniaN/ACIF104-Sumativa2-Grupo13.git)
 cd ACIF104-Sumativa2-Grupo13
+```
 
-
-
-2. Configurar Entorno Virtual (Recomendado)
+### 2. Configurar Entorno Virtual (Recomendado)
 Para evitar conflictos de versiones, crea un entorno aislado:
 
-Bash
-
+```
 # Crear entorno
 python3 -m venv venv
 
@@ -74,54 +72,58 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Activar entorno (Windows)
-# venv\Scripts\activate
-3. Instalar Dependencias
+venv\Scripts\activate
+```
+
+### 3. Instalar Dependencias
 Instala las librerías necesarias listadas en el archivo raíz. (Nota: Asegúrate de usar el nombre exacto del archivo que tienes en tu carpeta)
 
-Bash
+```
+pip install -r requeriments.txt.
+```
 
-pip install -r requeriments.txt
-🚀 Ejecución de la Aplicación (API)
+## 🚀 Ejecución de la Aplicación (API)
 La aplicación web (Frontend + Backend) se encuentra en la carpeta API. Es importante ejecutarla desde allí para que encuentre los archivos .keras y .csv correctamente.
 
-Paso 1: Navegar a la carpeta API
-
-Bash
-
+### Paso 1: Navegar a la carpeta API
+```
 cd API
-Paso 2: (Opcional) Regenerar Artefactos Locales Si tienes problemas de compatibilidad al cargar el modelo (errores de sklearn o versiones), ejecuta este script para re-entrenar y guardar el modelo en tu máquina:
+```
 
-Bash
+### Paso 2: (Opcional) Regenerar Artefactos Locales Si tienes problemas de compatibilidad al cargar el modelo (errores de sklearn o versiones), ejecuta este script para re-entrenar y guardar el modelo en tu máquina:
 
+
+```
 python3 entrenar_local.py
+```
+
 Espera a ver el mensaje: "¡LISTO! Archivos generados correctamente."
 
-Paso 3: Iniciar la App
+### Paso 3: Iniciar la App
 
-Bash
-
+```
 streamlit run app.py
+```
+
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:8501.
 
-☁️ Ejecución en Google Colab
+## ☁️ Ejecución en Google Colab
 Si prefieres revisar el análisis sin instalar nada localmente:
 
-Abre el archivo Notebook/ACIF104_S10_Grupo13.ipynb en el repositorio de GitHub.
+1. Abre el archivo Notebook/ACIF104_S10_Grupo13.ipynb en el repositorio de GitHub.
 
-Haz clic en el botón "Open in Colab" (si está disponible) o descarga el archivo y súbelo a Google Colab.
+2. Haz clic en el botón "Open in Colab" (si está disponible) o descarga el archivo y súbelo a Google Colab.
 
-Para cargar el dataset y utilidades, ejecuta en la primera celda del notebook:
+3. Para cargar el dataset y utilidades, ejecuta en la primera celda del notebook:
 
-Python
-
+```
 !git clone [https://github.com/MaidoniaN/ACIF104-Sumativa2-Grupo13.git](https://github.com/MaidoniaN/ACIF104-Sumativa2-Grupo13.git)
 %cd ACIF104-Sumativa2-Grupo13/API
 !pip install -r requeriments.txt
-👥 Autores
-Grupo 13 - Aprendizaje de Máquinas (ACIF104)
+```
 
-Alonso Cid Riveros
-
-Scarlett Espinoza Contreras
-
-Christian Mattioni Avila
+## 👥 Autores
+### Grupo 13 - Aprendizaje de Máquinas (ACIF104)
+- Alonso Cid Riveros
+- Scarlett Espinoza Contreras
+- Christian Mattioni Avila
