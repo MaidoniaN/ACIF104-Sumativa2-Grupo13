@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # ==============================================================================
-# 1. BACKEND Y LÓGICA ML (CORREGIDO)
+# 1. BACKEND Y LÓGICA ML 
 # ==============================================================================
 
 @st.cache_resource
@@ -120,7 +120,7 @@ def user_input_features():
     capital_loss = st.sidebar.number_input('Pérdida Capital', 0, 4356, 0)
     
     if capital_gain > 0 and capital_loss > 0:
-        st.sidebar.warning("⚠️ Aviso: Ganancia y pérdida simultánea es inusual.")
+        st.sidebar.warning("Aviso: Ganancia y pérdida simultánea es inusual.")
 
     hours_per_week = st.sidebar.slider('Horas/Semana', 1, 99, 40)
     native_country = st.sidebar.selectbox('País', ['United-States', 'Mexico', 'Philippines', 'Germany', 'Canada', 'Puerto-Rico', 'El-Salvador', 'India', 'Cuba', 'England', 'China', 'South', 'Jamaica', 'Italy', 'Dominican-Republic', 'Japan', 'Guatemala', 'Poland', 'Vietnam', 'Columbia', 'Haiti', 'Portugal', 'Taiwan', 'Iran', 'Nicaragua', 'Peru', 'Ecuador', 'France', 'Greece', 'Ireland', 'Thailand', 'Hong', 'Cambodia', 'Trinadad&Tobago', 'Laos', 'Yugoslavia', 'Outlying-US(Guam-USVI-etc)', 'Hungary', 'Honduras', 'Scotland', 'Holand-Netherlands'])
@@ -149,8 +149,18 @@ with col1:
                 log_prediction(input_dict, prediction, prob)
                 
                 m1, m2 = st.columns(2)
+
+                #
+                #m1.metric("Probabilidad", f"{prob:.1%}")
+                #m2.success("## >50K") if prediction == 1 else m2.warning("## <=50K")
+
+                # --- CÓDIGO CORREGIDO ---
                 m1.metric("Probabilidad", f"{prob:.1%}")
-                m2.success("## >50K") if prediction == 1 else m2.warning("## <=50K")
+                # Usamos un if-else normal para evitar que Streamlit imprima el objeto técnico
+                if prediction == 1:
+                    m2.success("## >50K")
+                else:
+                    m2.warning("## <=50K")
                 
                 st.divider()
                 st.subheader("Explicación Visual")

@@ -18,3 +18,5 @@ age,workclass,education.num,marital.status,occupation,relationship,race,sex,capi
 40,Private,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,El-Salvador,>50K,0.5083
 44,Private,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,United-States,>50K,0.8414
 44,Private,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,El-Salvador,>50K,0.662
+30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.6378
+30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.6378
