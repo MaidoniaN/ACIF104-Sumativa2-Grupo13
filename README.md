@@ -157,9 +157,19 @@ streamlit run app.py
 
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:8501.
 Una vez que inicia con la aplicacion podemos hacer predicciones, de acuerdo a un sujeto de interes y mediante el algoritmo, si podra o no ganar sobre 50Mil
+Es aqui en donde realizamos la primera prediccion para un sujeto en particular. En la barra de la izquierda se pueden configurar caracteristicas tales como:
+
+- Edad
+- Clase de Trabajo
+- Años de educacion
+- Nacionalidad
+- etc
+
 ![Interfaz de la App Streamlit](Images/Prediction1.png)
 
-Ahora bien, son casi las mismas caracteristicas pero el resultado es menor porque se realizó un cambio en la nacionalidad.
+Ahora bien, para una segunda prediccion, solo se modifico la caracteristica del Pais, paso de "Estados Unidos" a "El Salvador" y el resultado de la prediccion es mas baja.
+
+
 ![Interfaz de la App Streamlit](Images/Prediction2.png)
 
 ## ☁ Ejecución en Google Colab
