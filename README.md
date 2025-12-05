@@ -172,7 +172,7 @@ Para el caso de la imagen, el sujeto tiene un 85.6% de "Probabilidades" de obten
 
 ![Interfaz de la App Streamlit](Images/Prediction1.png)
 
-Ahora bien, para una segunda predicción, solo se modifico la característica del País, paso de "Estados Unidos" a "El Salvador" y el resultado de la predicción es mas baja, obteniendo solo un 62.7% de "Probabilidades" de ganar mas de 50Mil al año.
+Ahora bien, para una segunda predicción, solo se modificó la característica del País, pasó de "Estados Unidos" a "El Salvador" y el resultado de la predicción es mas baja, obteniendo solo un 62.7% de "Probabilidades" de ganar mas de 50Mil al año.
 
 
 ![Interfaz de la App Streamlit](Images/Prediction2.png)
