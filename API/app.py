@@ -149,12 +149,6 @@ with col1:
                 log_prediction(input_dict, prediction, prob)
                 
                 m1, m2 = st.columns(2)
-
-                #
-                #m1.metric("Probabilidad", f"{prob:.1%}")
-                #m2.success("## >50K") if prediction == 1 else m2.warning("## <=50K")
-
-                # --- CÓDIGO CORREGIDO ---
                 m1.metric("Probabilidad", f"{prob:.1%}")
                 # Usamos un if-else normal para evitar que Streamlit imprima el objeto técnico
                 if prediction == 1:

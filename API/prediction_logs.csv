@@ -22,3 +22,7 @@ age,workclass,education.num,marital.status,occupation,relationship,race,sex,capi
 30,Private,10,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,>50K,0.6378
 44,State-gov,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,United-States,>50K,0.8564
 44,State-gov,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,El-Salvador,>50K,0.6271
+44,State-gov,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,United-States,>50K,0.8564
+44,State-gov,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,El-Salvador,>50K,0.6271
+44,State-gov,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,Canada,>50K,0.8667
+44,State-gov,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,3000,0,44,Mexico,>50K,0.7901
