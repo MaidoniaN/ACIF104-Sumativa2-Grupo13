@@ -177,6 +177,7 @@ Ahora bien, para una segunda predicción, solo se modificó la característica d
 
 ![Interfaz de la App Streamlit](Images/Prediction2.png)
 
+
 ## ☁ Ejecución en Google Colab
 
 Si prefieres revisar el análisis sin instalar nada localmente:
@@ -192,6 +193,11 @@ Si prefieres revisar el análisis sin instalar nada localmente:
 %cd ACIF104-Sumativa2-Grupo13/API
 !pip install -r requeriments.txt
 ```
+
+### 🎥 Demostración en Video
+Para una demostración visual del funcionamiento de la aplicación, puedes ver el siguiente video:
+
+[▶️ Ver Demostración en YouTube](https://www.youtube.com/watch?v=LIrMlmaIZcQ)
 
 ## 👥 Autores
 ### Grupo 13 - Aprendizaje de Máquinas (ACIF104)
