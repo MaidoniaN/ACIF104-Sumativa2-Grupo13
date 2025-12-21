@@ -56,10 +56,10 @@ Tras experimentar con múltiples arquitecturas, el modelo **MLP con Dropout (30%
 
 | Modelo | F1-Score (>50K) | AUC-ROC | Conclusión |
 | :--- | :---: | :---: | :--- |
-| **MLP + Dropout (Ganador)** | **0.6836** | **0.9071** | Mejor equilibrio y generalización. |
-| Wide & Deep | 0.6812 | 0.9058 | Muy competitivo, arquitectura robusta. |
+| **MLP + Dropout (Ganador)** | **0.6845** | **0.9065** | Mejor equilibrio y generalización. |
+| Wide & Deep | 0.6811 | 0.9065 | Muy competitivo, arquitectura robusta. |
 | MLP Optimizado (Tuner) | 0.6804 | 0.9070 | Excelente AUC, pero menor F1. |
-| MLP Básico | 0.6774 | 0.9024 | Buen baseline, tiende al sobreajuste. |
+| MLP Básico | 0.6774 | 0.9049 | Buen baseline, tiende al sobreajuste. |
 
 **Insights de SHAP:**
 El análisis de interpretabilidad reveló que el **Estado Civil** (específicamente estar casado), la **Edad**, los **Años de Educación** y las **Ganancias de Capital** son los predictores más fuertes para tener ingresos altos.
